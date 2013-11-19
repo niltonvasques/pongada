@@ -1,0 +1,68 @@
+
+pongada.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+menu
+  rotate: false
+  xy: 1, 404
+  size: 458, 512
+  orig: 458, 512
+  offset: 0, 0
+  index: -1
+exit
+  rotate: false
+  xy: 1, 281
+  size: 430, 121
+  orig: 430, 121
+  offset: 0, 0
+  index: -1
+new-game
+  rotate: false
+  xy: 461, 795
+  size: 430, 121
+  orig: 430, 121
+  offset: 0, 0
+  index: -1
+black-score
+  rotate: false
+  xy: 1, 103
+  size: 177, 176
+  orig: 177, 176
+  offset: 0, 0
+  index: -1
+white-score
+  rotate: false
+  xy: 461, 617
+  size: 177, 176
+  orig: 177, 176
+  offset: 0, 0
+  index: -1
+black-piece-idle
+  rotate: false
+  xy: 893, 816
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+black-piece-selected
+  rotate: false
+  xy: 1, 1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+white-piece-idle
+  rotate: false
+  xy: 180, 179
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+white-piece-selected
+  rotate: false
+  xy: 461, 515
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

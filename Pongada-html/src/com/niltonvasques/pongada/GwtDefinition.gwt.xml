@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module>
+    <entry-point class="com.niltonvasques.pongada.client.GwtLauncher"/>
+    <set-configuration-property name="gdx.assetpath" value="../Pongada-android/assets"/>
+    <inherits name="PongadaGame"/>
+    <inherits name="com.badlogic.gdx.backends.gdx_backends_gwt"/>
+</module>
