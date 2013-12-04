@@ -13,7 +13,6 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.math.Rectangle;
-import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ArrayMap;
 import com.badlogic.gdx.utils.Disposable;
 import com.niltonvasques.pongada.model.Block;
@@ -146,7 +145,7 @@ public class BoardRenderer implements Disposable{
 	public void debugRender() {
 			// render blocks
 			debugRenderer.setProjectionMatrix(camera.combined);
-			debugRenderer.begin(ShapeType.Rectangle);
+			debugRenderer.begin(ShapeType.Line);
 			for (Block block : board.getBlocks()) {
 				Rectangle rect = block.getBounds();
 				float x1 = block.getPosition().x + rect.x;

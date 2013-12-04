@@ -29,7 +29,7 @@ public class GameScreen implements Screen, InputProcessor{
 		
 		menuRenderer = new MenuRenderer();
 		boardRenderer = new BoardRenderer(board = new Board());
-//		boardRenderer.setDebug(true);
+		boardRenderer.setDebug(true);
 		boardController = new BoardController(board);
 		Gdx.input.setInputProcessor(this);		
 		
